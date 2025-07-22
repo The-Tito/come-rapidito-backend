@@ -1,0 +1,23 @@
+CREATE USER 'user_api'@'localhost' IDENTIFIED BY 'password_db';
+
+GRANT ALL PRIVILEGES ON db_api_tamplate.* TO 'user_api'@'localhost';
+FLUSH PRIVILEGES;
+
+SHOW GRANTS FOR 'user_api'@'localhost';
+
+USE db_api_tamplate;
+
+CREATE TABLE user(idUser int AUTO_INCREMENT PRIMARY KEY, name VARCHAR(50) NOT NULL, email VARCHAR(50) NOT NULL);
+
+CREATE TABLE categorias(idCategoria int AUTO_INCREMENT PRIMARY KEY, nombre VARCHAR(50));
+ALTER TABLE categorias
+DROP COLUMN nombre;
+ALTER TABLE categorias
+ADD categoria VARCHAR(50);
+
+CREATE TABLE productos(idProducto int AUTO_INCREMENT PRIMARY KEY, nombre VARCHAR(50) NOT NULL, precio float NOT NULL, descripcion VARCHAR(50) NOT NULL, idCategoria int, FOREIGN KEY (idCategoria) REFERENCES categorias(idCategoria));
+
+SELECT productos.idProducto, categorias.categoria, productos.precio
+FROM productos
+INNER JOIN categorias
+ON productos.idCategoria=categorias.idCategoria;

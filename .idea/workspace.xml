@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cc1517c2-364d-4473-81f9-b4c307a3f171" name="Changes" comment="ADD First commit">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/AndroidProjectSystem.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/alilopez/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/alilopez/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/alilopez/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/alilopez/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/alilopez/di/AppModule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/alilopez/di/AppModule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/alilopez/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/alilopez/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/alilopez/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/alilopez/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/alilopez/routes/UserRoutes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/alilopez/routes/UserRoutes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/alilopez/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/alilopez/service/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/.env" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/.env" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;The-Tito&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/alilopez37/template_api.git&quot;,
+    &quot;accountId&quot;: &quot;743d08ec-e2e8-4642-b757-8731c86436e3&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2zQKzH9cbjeD2JHIxIgNricjw4C" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.template_api [:org.alilopez.Main.main()].executor": "Run",
+    "Gradle.template_api [shadowJar].executor": "Run",
+    "Gradle.template_api_local [:org.alilopez.Main.main()].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Workspace/Proyecto Integrador/Backend/template_api_local",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="template_api [shadowJar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="shadowJar" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.template_api [shadowJar]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.26927.53" />
+        <option value="bundled-js-predefined-d6986cc7102b-09060db00ec0-JavaScript-IU-251.26927.53" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cc1517c2-364d-4473-81f9-b4c307a3f171" name="Changes" comment="" />
+      <created>1751658119176</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1751658119176</updated>
+      <workItem from="1751658122305" duration="11230000" />
+      <workItem from="1751775551416" duration="7497000" />
+      <workItem from="1751783561906" duration="755000" />
+      <workItem from="1751825094581" duration="30521000" />
+      <workItem from="1751909336217" duration="879000" />
+      <workItem from="1751942074004" duration="9522000" />
+      <workItem from="1751984051055" duration="2650000" />
+      <workItem from="1751990745564" duration="103000" />
+      <workItem from="1751991109522" duration="1074000" />
+      <workItem from="1751992265241" duration="212000" />
+      <workItem from="1752010368266" duration="1575000" />
+      <workItem from="1752083592476" duration="387000" />
+      <workItem from="1752089071624" duration="4072000" />
+      <workItem from="1752123972108" duration="1876000" />
+      <workItem from="1752126674276" duration="18000" />
+      <workItem from="1752163686673" duration="9927000" />
+      <workItem from="1752210117678" duration="43000" />
+      <workItem from="1752210179801" duration="1049000" />
+      <workItem from="1752213730900" duration="1190000" />
+      <workItem from="1752216501648" duration="944000" />
+      <workItem from="1752217471312" duration="5687000" />
+      <workItem from="1752243083541" duration="7395000" />
+      <workItem from="1752250604297" duration="6050000" />
+      <workItem from="1752463569967" duration="6449000" />
+      <workItem from="1752475407564" duration="2165000" />
+      <workItem from="1752506243819" duration="1994000" />
+      <workItem from="1752510074284" duration="5159000" />
+      <workItem from="1752544910276" duration="12559000" />
+      <workItem from="1752589181443" duration="23080000" />
+      <workItem from="1752675639912" duration="5293000" />
+      <workItem from="1752766083211" duration="3985000" />
+      <workItem from="1752776620258" duration="28000" />
+      <workItem from="1752783821431" duration="4574000" />
+      <workItem from="1752797123774" duration="9936000" />
+      <workItem from="1752818679618" duration="9366000" />
+      <workItem from="1752854897974" duration="9519000" />
+      <workItem from="1752884854633" duration="3687000" />
+      <workItem from="1752888607927" duration="11709000" />
+      <workItem from="1752905809638" duration="6000" />
+      <workItem from="1752906319705" duration="4746000" />
+      <workItem from="1752911355119" duration="4164000" />
+      <workItem from="1752915558065" duration="763000" />
+      <workItem from="1752916373471" duration="1429000" />
+      <workItem from="1752948133133" duration="6867000" />
+      <workItem from="1752962183009" duration="1730000" />
+      <workItem from="1752969325286" duration="907000" />
+      <workItem from="1752970837606" duration="29000" />
+      <workItem from="1752970873567" duration="977000" />
+      <workItem from="1752971868215" duration="1278000" />
+      <workItem from="1752973162781" duration="15988000" />
+      <workItem from="1753030660227" duration="1514000" />
+      <workItem from="1753035633987" duration="1253000" />
+      <workItem from="1753038968718" duration="6000" />
+      <workItem from="1753038982962" duration="103000" />
+      <workItem from="1753039103952" duration="67000" />
+      <workItem from="1753039185439" duration="14006000" />
+      <workItem from="1753106984959" duration="689000" />
+      <workItem from="1753113562151" duration="2776000" />
+      <workItem from="1753139593244" duration="412000" />
+      <workItem from="1753145242994" duration="5585000" />
+      <workItem from="1753155829107" duration="7747000" />
+      <workItem from="1753165147901" duration="197000" />
+      <workItem from="1753165405785" duration="8000" />
+      <workItem from="1753165422686" duration="24000" />
+      <workItem from="1753165460739" duration="48000" />
+      <workItem from="1753165517117" duration="7000" />
+      <workItem from="1753165534140" duration="24000" />
+      <workItem from="1753165578742" duration="34000" />
+      <workItem from="1753165628231" duration="46000" />
+      <workItem from="1753165695481" duration="27000" />
+      <workItem from="1753165737481" duration="19716000" />
+    </task>
+    <task id="LOCAL-00001" summary="ADD First commit">
+      <option name="closed" value="true" />
+      <created>1753220508045</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1753220508045</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ADD First commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="ADD First commit" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="5" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.sql.SQLException" package="java.sql" />
+          <option name="timeStamp" value="7" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NumberFormatException" package="java.lang" />
+          <option name="timeStamp" value="8" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
