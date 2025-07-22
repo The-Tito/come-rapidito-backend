@@ -1,0 +1,59 @@
+plugins {
+    id 'application'
+    id 'java'
+    id("com.github.johnrengelman.shadow") version "8.1.1"
+}
+
+group = 'org.alilopez'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // JWT moderna - versión unificada
+    implementation 'io.jsonwebtoken:jjwt-api:0.12.6'
+    runtimeOnly 'io.jsonwebtoken:jjwt-impl:0.12.6'
+    runtimeOnly 'io.jsonwebtoken:jjwt-jackson:0.12.6'
+
+    // Javalin - versión actualizada
+    implementation 'io.javalin:javalin-bundle:6.6.0'
+
+    // Jackson para JSON - versión actualizada
+    implementation 'com.fasterxml.jackson.core:jackson-databind:2.17.2'
+
+    // Validación
+    implementation 'org.glassfish:javax.el:3.0.0'
+    implementation 'org.hibernate.validator:hibernate-validator:6.2.5.Final'
+    implementation 'javax.validation:validation-api:2.0.1.Final'
+    implementation 'me.geso:tinyvalidator:0.6.0'
+
+    // Seguridad
+    implementation 'org.mindrot:jbcrypt:0.4'
+
+    // Base de datos
+    implementation 'com.mysql:mysql-connector-j:9.3.0'
+    implementation 'com.zaxxer:HikariCP:5.1.0'
+
+    // Logging
+    implementation 'org.slf4j:slf4j-simple:2.0.16'
+
+    // Utilidades
+    implementation 'io.github.cdimascio:dotenv-java:3.0.0'
+
+    // Testing
+    testImplementation platform('org.junit:junit-bom:5.10.0')
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+
+    // Cloudinary
+    implementation 'com.cloudinary:cloudinary-http5:2.0.0'
+}
+
+application {
+    mainClass = 'org.alilopez.Main'
+}
+
+test {
+    useJUnitPlatform()
+}
