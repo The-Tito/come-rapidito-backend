@@ -59,7 +59,7 @@ public class UserServiceImpl implements  UserService {
         String nombre = result.getNombre();
         String token = manager.issueToken(nombre);
         int id_usuario = result.getId_usuario();
-        System.out.println(id_usuario);
+
         int idRol = result.getIdRol();
         AuthResponse response = new AuthResponse(nombre, token, idRol,  id_usuario);
         return response;

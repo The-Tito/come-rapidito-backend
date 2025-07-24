@@ -9,6 +9,7 @@ public class OrderUserResponse {
     private int id_pedido;
     private int id_status;
     private String fecha_pedido;
+    private int tarifa;
     private float totalFinal;
     private String nombre;
     private Address direccion;
@@ -87,5 +88,13 @@ public class OrderUserResponse {
 
     public void setPuntuacion_pedido(int puntuacion_pedido) {
         this.puntuacion_pedido = puntuacion_pedido;
+    }
+
+    public int getTarifa() {
+        return tarifa;
+    }
+
+    public void setTarifa(int tarifa) {
+        this.tarifa = tarifa;
     }
 }

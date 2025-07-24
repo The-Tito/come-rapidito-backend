@@ -32,7 +32,7 @@ public class CloudinaryService {
                 throw new RuntimeException("Cloudinary no está configurado correctamente. Verifica las variables de entorno.");
             }
 
-            System.out.println("Cloudinary configurado para: " + this.cloudinary.config.cloudName);
+
 
         } catch (Exception e) {
             System.err.println("Error al configurar Cloudinary: " + e.getMessage());

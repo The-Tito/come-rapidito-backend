@@ -5,19 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc1517c2-364d-4473-81f9-b4c307a3f171" name="Changes" comment="ADD First commit">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/AndroidProjectSystem.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/alilopez/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/alilopez/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/alilopez/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/alilopez/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/alilopez/di/AppModule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/alilopez/di/AppModule.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/alilopez/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/alilopez/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/alilopez/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/alilopez/repository/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/alilopez/routes/UserRoutes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/alilopez/routes/UserRoutes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/alilopez/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/alilopez/service/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/alilopez/DTO/OrderResponse/User/OrderUserResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/alilopez/DTO/OrderResponse/User/OrderUserResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/alilopez/controller/ImageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/alilopez/controller/ImageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/alilopez/repository/CartRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/alilopez/repository/CartRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/alilopez/repository/OrderRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/alilopez/repository/OrderRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/alilopez/service/CloudinaryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/alilopez/service/CloudinaryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/alilopez/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/alilopez/service/UserServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/.env" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/.env" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,7 +32,23 @@
         </task>
         <projects_view>
           <tree_state>
-            <expand />
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="template_api" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="template_api" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="template_api" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="shadow" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
             <select />
           </tree_state>
         </projects_view>
@@ -63,7 +73,7 @@
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/alilopez37/template_api.git&quot;,
+    &quot;url&quot;: &quot;https://github.com/The-Tito/come-rapidito-backend.git&quot;,
     &quot;accountId&quot;: &quot;743d08ec-e2e8-4642-b757-8731c86436e3&quot;
   }
 }</component>
@@ -79,26 +89,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Gradle.template_api [:org.alilopez.Main.main()].executor": "Run",
-    "Gradle.template_api [shadowJar].executor": "Run",
-    "Gradle.template_api_local [:org.alilopez.Main.main()].executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Workspace/Proyecto Integrador/Backend/template_api_local",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.template_api [:org.alilopez.Main.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.template_api [shadowJar].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.template_api_local [:org.alilopez.Main.main()].executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Workspace/Proyecto Integrador/Backend/template_api_local&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="template_api [shadowJar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -213,7 +223,11 @@
       <workItem from="1753165578742" duration="34000" />
       <workItem from="1753165628231" duration="46000" />
       <workItem from="1753165695481" duration="27000" />
-      <workItem from="1753165737481" duration="19716000" />
+      <workItem from="1753165737481" duration="20043000" />
+      <workItem from="1753221017830" duration="84000" />
+      <workItem from="1753230449059" duration="4506000" />
+      <workItem from="1753250753721" duration="783000" />
+      <workItem from="1753282540200" duration="13397000" />
     </task>
     <task id="LOCAL-00001" summary="ADD First commit">
       <option name="closed" value="true" />

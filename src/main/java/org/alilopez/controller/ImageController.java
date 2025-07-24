@@ -579,6 +579,7 @@ public class ImageController {
             try {
                 id_vehiculoInteger = Integer.parseInt(id_vehiculo);
                 id_usuarioInteger = Integer.parseInt(id_usuario);
+
             } catch (NumberFormatException e) {
                 ctx.status(400).json(Map.of("error", "Formato numérico inválido"));
                 return;

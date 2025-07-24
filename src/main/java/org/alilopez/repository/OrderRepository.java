@@ -232,7 +232,7 @@ public class OrderRepository {
     public List<OrderUserResponse> historyOrdersByIdUser(int id_usuario) throws SQLException {
         List<OrderUserResponse> orderUserResponseList = new ArrayList<>();
 
-        String query = "SELECT pedidos.id_pedido, pedidos.id_status, pedidos.fecha_pedido, pedidos.total, pedidos.id_carrito, usuarios.nombre, " +
+        String query = "SELECT pedidos.tarifa, pedidos.id_pedido, pedidos.id_status, pedidos.fecha_pedido, pedidos.total, pedidos.id_carrito, usuarios.nombre, " +
                 "direcciones.calle, direcciones.colonia, direcciones.numero_casa, direcciones.codigo_postal, direcciones.referencia, " +
                 "restaurantes.nombre_restaurante, restaurantes.direccion " +
                 "FROM pedidos " +
@@ -281,6 +281,7 @@ public class OrderRepository {
                 orderUserResponse.setFecha_pedido(rs.getString("fecha_pedido"));
                 orderUserResponse.setTotalFinal(rs.getFloat("total"));
                 orderUserResponse.setNombre(rs.getString("nombre"));
+                orderUserResponse.setTarifa(rs.getInt("tarifa"));
                 cartRestaurantResponse.setTotal(rs.getFloat("total"));
                 orderUserResponse.setDireccion(address);
                 orderUserResponse.setRestaurante(restaurantResponse);
@@ -409,7 +410,7 @@ public class OrderRepository {
     public OrderUserResponse actualOrder(int id_pedido) throws SQLException {
         OrderUserResponse orderUserResponse = new OrderUserResponse();
 
-        String query = "SELECT pedidos.id_pedido, pedidos.id_status, pedidos.fecha_pedido, pedidos.total, pedidos.id_carrito, usuarios.nombre, " +
+        String query = "SELECT pedidos.tarifa, pedidos.id_pedido, pedidos.id_status, pedidos.fecha_pedido, pedidos.total, pedidos.id_carrito, usuarios.nombre, " +
                 "direcciones.calle, direcciones.colonia, direcciones.numero_casa, direcciones.codigo_postal, direcciones.referencia, " +
                 "restaurantes.nombre_restaurante, restaurantes.direccion " +
                 "FROM pedidos " +
@@ -458,6 +459,7 @@ public class OrderRepository {
                 orderUserResponse.setFecha_pedido(rs.getString("fecha_pedido"));
                 orderUserResponse.setTotalFinal(rs.getFloat("total"));
                 orderUserResponse.setNombre(rs.getString("nombre"));
+                orderUserResponse.setTarifa(rs.getInt("tarifa"));
                 cartRestaurantResponse.setTotal(rs.getFloat("total"));
                 orderUserResponse.setDireccion(address);
                 orderUserResponse.setRestaurante(restaurantResponse);

@@ -9,7 +9,7 @@ public class CartRepository {
 
     public int createCarrito(Cart cart) throws SQLException {
         int id_carrito = 0;
-        String query = "INSERT INTO carritoS (id_usuario, total) VALUES (?, ?)";
+        String query = "INSERT INTO carritos (id_usuario, total) VALUES (?, ?)";
 
         try(Connection conn = DatabaseConfig.getDataSource().getConnection();
             PreparedStatement stmt = conn.prepareStatement(query, Statement.RETURN_GENERATED_KEYS)) {
